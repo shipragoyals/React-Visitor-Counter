@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  margin: 50px;
+}
+
+.model {
+  background-color: #ddd;
+  padding: 50px;
+  position: relative;
+}
+
+button.close {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+}
+
+button {
+  background-color: #af1f1f;
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  padding: 14px 60px;
+  cursor: pointer;
+}

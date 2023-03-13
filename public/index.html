@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Class Components</title>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,7 +26,17 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-  </head>
+    <link
+    rel="stylesheet"
+    href="https://sdks.shopifycdn.com/polaris/3.13.0/polaris.min.css"
+  />
+  <script async src="https://api.countapi.xyz/hit/epsweb.demandtech.org/d686be58-6588-43a7-97f1-a4c0f4e64ede?callback=websiteVisits"></script>
+<script>
+  function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
+</script>
+</head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
