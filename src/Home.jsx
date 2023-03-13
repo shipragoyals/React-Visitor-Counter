@@ -6,6 +6,7 @@ const Home = () =>{
     cookies.set('myCat', 'abc', { path: '/' });
     console.log(cookies.get('myCat')); // Pacman
    
+    
  return(
     <>
         <section> 
