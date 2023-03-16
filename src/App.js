@@ -14,7 +14,8 @@ const App = () =>{
  return(
     <>
    <Home></Home>
- <PolarisProvider><Polaris></Polaris></PolarisProvider> 
+
+ {/* <PolarisProvider><Polaris></Polaris></PolarisProvider>  */}
 
     </>
  );

@@ -5,6 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import "./css/style.css";
+import { CookiesProvider } from 'react-cookie';
 
 import { BrowserRouter } from 'react-router-dom'
 
@@ -12,7 +13,9 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.render(
   <>
 <BrowserRouter>
+  <CookiesProvider >
     <App />
+    </CookiesProvider>
     </BrowserRouter>
     </>
  ,
